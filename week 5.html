@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Page with Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h1>Important Tasks</h1>
+    <ol type="I">
+        <li>Complete the HTML structure.</li>
+        <li>Design the registration form.</li>
+        <li>Embed multimedia content.</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Nature</h2>
+    <img src="https://images.pexels.com/photos/1108097/pexels-photo-1108097.jpeg" alt="Nature Image">
+
+    <!-- Table with 5 Contacts -->
+    <h2>Contact Information</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Main St, Springfield</td>
+            <td>+123456789</td>
+            <td>johndoe@email.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Oak St, Springfield</td>
+            <td>+987654321</td>
+            <td>janesmith@email.com</td>
+        </tr>
+        <tr>
+            <td>Sam Brown</td>
+            <td>789 Pine St, Springfield</td>
+            <td>+456789123</td>
+            <td>sambrown@email.com</td>
+        </tr>
+        <tr>
+            <td>Lisa White</td>
+            <td>321 Maple St, Springfield</td>
+            <td>+654321987</td>
+            <td>lisawhite@email.com</td>
+        </tr>
+        <tr>
+            <td>David Green</td>
+            <td>654 Birch St, Springfield</td>
+            <td>+112233445</td>
+            <td>davidgreen@email.com</td>
+        </tr>
+    </table>
+
+    <!-- Audio Element -->
+    <h2>Background Music</h2>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Sample Video</h2>
+    <video controls width="600">
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Registration Form with Validation -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="form-group">
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div class="form-group">
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        </div>
+
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="aus">Australia</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
