@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Page</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Roman Numeral List</h2>
+        <ol type="I">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+            <li>Fourth Item</li>
+            <li>Fifth Item</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Beautiful Scenery</h2>
+        <img src="images.jpeg" alt="Beautiful Nature" width="500">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Victor kei</td>
+                    <td>Gatundu</td>
+                    <td>+25474567890</td>
+                    <td>victor567@gmail.com.com</td>
+                </tr>
+                <tr>
+                    <td>Jane makeji</td>
+                    <td>Nairobi</td>
+                    <td>+2547654321</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Johnson</td>
+                    <td>Pine</td>
+                    <td>+2547334455</td>
+                    <td>emily234@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>Murang'a</td>
+                    <td>+2547344556</td>
+                    <td>michael132@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sarah Wilson</td>
+                    <td>Thika</td>
+                    <td>+25476677889</td>
+                    <td>sarah123@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name field -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Email field -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Password field -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required>
+            </div>
+
+            <!-- Date of Birth field -->
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <!-- Dropdown for selecting gender -->
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">--Select--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <!-- Radio buttons for subscription preference -->
+            <div>
+                <p>Subscribe to Newsletter:</p>
+                <input type="radio" id="subscribeYes" name="subscribe" value="yes" required>
+                <label for="subscribeYes">Yes</label>
+                <input type="radio" id="subscribeNo" name="subscribe" value="no">
+                <label for="subscribeNo">No</label>
+            </div>
+
+            <!-- Checkboxes for selecting interests -->
+            <div>
+                <p>Select Your Interests:</p>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="design" name="interests" value="design">
+                <label for="design">Design</label>
+                <input type="checkbox" id="gaming" name="interests" value="gaming">
+                <label for="gaming">Gaming</label>
+            </div>
+
+            <!-- Submit button -->
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
